@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E3A8218B84A6836DA6FBB95 /* Pods_Email_Login_Page_Email_Login_PageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D1B49EBBAA65403BB9CC52 /* Pods_Email_Login_Page_Email_Login_PageUITests.framework */; };
+		2FCFF4EEF68C7C4E2CA92AE0 /* Pods_Email_Login_PageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78A1AB243DBC19B48FA35EC /* Pods_Email_Login_PageTests.framework */; };
+		5FE6E5B9E390B28360B0EF77 /* Pods_Email_Login_Page.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1847D681EA108A351C462E6E /* Pods_Email_Login_Page.framework */; };
+		ADCF8D5C2465975500C5DFBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF8D5B2465975500C5DFBD /* AppDelegate.swift */; };
+		ADCF8D5E2465975500C5DFBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF8D5D2465975500C5DFBD /* SceneDelegate.swift */; };
+		ADCF8D602465975500C5DFBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF8D5F2465975500C5DFBD /* ContentView.swift */; };
+		ADCF8D622465975A00C5DFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCF8D612465975A00C5DFBD /* Assets.xcassets */; };
+		ADCF8D652465975A00C5DFBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCF8D642465975A00C5DFBD /* Preview Assets.xcassets */; };
+		ADCF8D682465975A00C5DFBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCF8D662465975A00C5DFBD /* LaunchScreen.storyboard */; };
+		ADCF8D732465975A00C5DFBD /* Email_Login_PageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF8D722465975A00C5DFBD /* Email_Login_PageTests.swift */; };
+		ADCF8D7E2465975A00C5DFBD /* Email_Login_PageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF8D7D2465975A00C5DFBD /* Email_Login_PageUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADCF8D6F2465975A00C5DFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADCF8D502465975500C5DFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADCF8D572465975500C5DFBD;
+			remoteInfo = "Email Login Page";
+		};
+		ADCF8D7A2465975A00C5DFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADCF8D502465975500C5DFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADCF8D572465975500C5DFBD;
+			remoteInfo = "Email Login Page";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1847D681EA108A351C462E6E /* Pods_Email_Login_Page.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Email_Login_Page.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5882F353F34DB7CB73C0E47A /* Pods-Email Login Page-Email Login PageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Email Login Page-Email Login PageUITests.debug.xcconfig"; path = "Target Support Files/Pods-Email Login Page-Email Login PageUITests/Pods-Email Login Page-Email Login PageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59284C23314C208FDE555CCF /* Pods-Email Login PageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Email Login PageTests.release.xcconfig"; path = "Target Support Files/Pods-Email Login PageTests/Pods-Email Login PageTests.release.xcconfig"; sourceTree = "<group>"; };
+		627355DCDECB1DF6A19F3E22 /* Pods-Email Login Page-Email Login PageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Email Login Page-Email Login PageUITests.release.xcconfig"; path = "Target Support Files/Pods-Email Login Page-Email Login PageUITests/Pods-Email Login Page-Email Login PageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ADCF8D582465975500C5DFBD /* Email Login Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Email Login Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCF8D5B2465975500C5DFBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADCF8D5D2465975500C5DFBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ADCF8D5F2465975500C5DFBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADCF8D612465975A00C5DFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADCF8D642465975A00C5DFBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADCF8D672465975A00C5DFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADCF8D692465975A00C5DFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADCF8D6E2465975A00C5DFBD /* Email Login PageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Email Login PageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCF8D722465975A00C5DFBD /* Email_Login_PageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email_Login_PageTests.swift; sourceTree = "<group>"; };
+		ADCF8D742465975A00C5DFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADCF8D792465975A00C5DFBD /* Email Login PageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Email Login PageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCF8D7D2465975A00C5DFBD /* Email_Login_PageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email_Login_PageUITests.swift; sourceTree = "<group>"; };
+		ADCF8D7F2465975A00C5DFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6EA0EE8CEBFCC1B1DB66D73 /* Pods-Email Login Page.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Email Login Page.release.xcconfig"; path = "Target Support Files/Pods-Email Login Page/Pods-Email Login Page.release.xcconfig"; sourceTree = "<group>"; };
+		C1D1B49EBBAA65403BB9CC52 /* Pods_Email_Login_Page_Email_Login_PageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Email_Login_Page_Email_Login_PageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78A1AB243DBC19B48FA35EC /* Pods_Email_Login_PageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Email_Login_PageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B3A704EEFC0D0CE8BE3C4E /* Pods-Email Login Page.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Email Login Page.debug.xcconfig"; path = "Target Support Files/Pods-Email Login Page/Pods-Email Login Page.debug.xcconfig"; sourceTree = "<group>"; };
+		F2945CA5FCC280D462B07140 /* Pods-Email Login PageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Email Login PageTests.debug.xcconfig"; path = "Target Support Files/Pods-Email Login PageTests/Pods-Email Login PageTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADCF8D552465975500C5DFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE6E5B9E390B28360B0EF77 /* Pods_Email_Login_Page.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF8D6B2465975A00C5DFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCFF4EEF68C7C4E2CA92AE0 /* Pods_Email_Login_PageTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF8D762465975A00C5DFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3A8218B84A6836DA6FBB95 /* Pods_Email_Login_Page_Email_Login_PageUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41F5D15ECF2A3048473B92CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1847D681EA108A351C462E6E /* Pods_Email_Login_Page.framework */,
+				C1D1B49EBBAA65403BB9CC52 /* Pods_Email_Login_Page_Email_Login_PageUITests.framework */,
+				C78A1AB243DBC19B48FA35EC /* Pods_Email_Login_PageTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2C7F12BCEE936649E499693 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3A704EEFC0D0CE8BE3C4E /* Pods-Email Login Page.debug.xcconfig */,
+				B6EA0EE8CEBFCC1B1DB66D73 /* Pods-Email Login Page.release.xcconfig */,
+				5882F353F34DB7CB73C0E47A /* Pods-Email Login Page-Email Login PageUITests.debug.xcconfig */,
+				627355DCDECB1DF6A19F3E22 /* Pods-Email Login Page-Email Login PageUITests.release.xcconfig */,
+				F2945CA5FCC280D462B07140 /* Pods-Email Login PageTests.debug.xcconfig */,
+				59284C23314C208FDE555CCF /* Pods-Email Login PageTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ADCF8D4F2465975500C5DFBD = {
+			isa = PBXGroup;
+			children = (
+				ADCF8D5A2465975500C5DFBD /* Email Login Page */,
+				ADCF8D712465975A00C5DFBD /* Email Login PageTests */,
+				ADCF8D7C2465975A00C5DFBD /* Email Login PageUITests */,
+				ADCF8D592465975500C5DFBD /* Products */,
+				A2C7F12BCEE936649E499693 /* Pods */,
+				41F5D15ECF2A3048473B92CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADCF8D592465975500C5DFBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF8D582465975500C5DFBD /* Email Login Page.app */,
+				ADCF8D6E2465975A00C5DFBD /* Email Login PageTests.xctest */,
+				ADCF8D792465975A00C5DFBD /* Email Login PageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADCF8D5A2465975500C5DFBD /* Email Login Page */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF8D5B2465975500C5DFBD /* AppDelegate.swift */,
+				ADCF8D5D2465975500C5DFBD /* SceneDelegate.swift */,
+				ADCF8D5F2465975500C5DFBD /* ContentView.swift */,
+				ADCF8D612465975A00C5DFBD /* Assets.xcassets */,
+				ADCF8D662465975A00C5DFBD /* LaunchScreen.storyboard */,
+				ADCF8D692465975A00C5DFBD /* Info.plist */,
+				ADCF8D632465975A00C5DFBD /* Preview Content */,
+			);
+			path = "Email Login Page";
+			sourceTree = "<group>";
+		};
+		ADCF8D632465975A00C5DFBD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF8D642465975A00C5DFBD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADCF8D712465975A00C5DFBD /* Email Login PageTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF8D722465975A00C5DFBD /* Email_Login_PageTests.swift */,
+				ADCF8D742465975A00C5DFBD /* Info.plist */,
+			);
+			path = "Email Login PageTests";
+			sourceTree = "<group>";
+		};
+		ADCF8D7C2465975A00C5DFBD /* Email Login PageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF8D7D2465975A00C5DFBD /* Email_Login_PageUITests.swift */,
+				ADCF8D7F2465975A00C5DFBD /* Info.plist */,
+			);
+			path = "Email Login PageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADCF8D572465975500C5DFBD /* Email Login Page */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCF8D822465975A00C5DFBD /* Build configuration list for PBXNativeTarget "Email Login Page" */;
+			buildPhases = (
+				6D3F61C5E48521AC89CF4FBE /* [CP] Check Pods Manifest.lock */,
+				ADCF8D542465975500C5DFBD /* Sources */,
+				ADCF8D552465975500C5DFBD /* Frameworks */,
+				ADCF8D562465975500C5DFBD /* Resources */,
+				141FFDBCF12D66338F83E139 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Email Login Page";
+			productName = "Email Login Page";
+			productReference = ADCF8D582465975500C5DFBD /* Email Login Page.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADCF8D6D2465975A00C5DFBD /* Email Login PageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCF8D852465975A00C5DFBD /* Build configuration list for PBXNativeTarget "Email Login PageTests" */;
+			buildPhases = (
+				C5E559EE0AFE31EE2E6D31C4 /* [CP] Check Pods Manifest.lock */,
+				ADCF8D6A2465975A00C5DFBD /* Sources */,
+				ADCF8D6B2465975A00C5DFBD /* Frameworks */,
+				ADCF8D6C2465975A00C5DFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADCF8D702465975A00C5DFBD /* PBXTargetDependency */,
+			);
+			name = "Email Login PageTests";
+			productName = "Email Login PageTests";
+			productReference = ADCF8D6E2465975A00C5DFBD /* Email Login PageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADCF8D782465975A00C5DFBD /* Email Login PageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCF8D882465975A00C5DFBD /* Build configuration list for PBXNativeTarget "Email Login PageUITests" */;
+			buildPhases = (
+				210C74330EFC50934821E71A /* [CP] Check Pods Manifest.lock */,
+				ADCF8D752465975A00C5DFBD /* Sources */,
+				ADCF8D762465975A00C5DFBD /* Frameworks */,
+				ADCF8D772465975A00C5DFBD /* Resources */,
+				787F1FC2D1212B815675E66C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADCF8D7B2465975A00C5DFBD /* PBXTargetDependency */,
+			);
+			name = "Email Login PageUITests";
+			productName = "Email Login PageUITests";
+			productReference = ADCF8D792465975A00C5DFBD /* Email Login PageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADCF8D502465975500C5DFBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Balaji;
+				TargetAttributes = {
+					ADCF8D572465975500C5DFBD = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					ADCF8D6D2465975A00C5DFBD = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = ADCF8D572465975500C5DFBD;
+					};
+					ADCF8D782465975A00C5DFBD = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = ADCF8D572465975500C5DFBD;
+					};
+				};
+			};
+			buildConfigurationList = ADCF8D532465975500C5DFBD /* Build configuration list for PBXProject "Email Login Page" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADCF8D4F2465975500C5DFBD;
+			productRefGroup = ADCF8D592465975500C5DFBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADCF8D572465975500C5DFBD /* Email Login Page */,
+				ADCF8D6D2465975A00C5DFBD /* Email Login PageTests */,
+				ADCF8D782465975A00C5DFBD /* Email Login PageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADCF8D562465975500C5DFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCF8D682465975A00C5DFBD /* LaunchScreen.storyboard in Resources */,
+				ADCF8D652465975A00C5DFBD /* Preview Assets.xcassets in Resources */,
+				ADCF8D622465975A00C5DFBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF8D6C2465975A00C5DFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF8D772465975A00C5DFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		141FFDBCF12D66338F83E139 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Email Login Page/Pods-Email Login Page-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Email Login Page/Pods-Email Login Page-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Email Login Page/Pods-Email Login Page-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		210C74330EFC50934821E71A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Email Login Page-Email Login PageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D3F61C5E48521AC89CF4FBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Email Login Page-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		787F1FC2D1212B815675E66C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Email Login Page-Email Login PageUITests/Pods-Email Login Page-Email Login PageUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Email Login Page-Email Login PageUITests/Pods-Email Login Page-Email Login PageUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Email Login Page-Email Login PageUITests/Pods-Email Login Page-Email Login PageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E559EE0AFE31EE2E6D31C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Email Login PageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADCF8D542465975500C5DFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCF8D5C2465975500C5DFBD /* AppDelegate.swift in Sources */,
+				ADCF8D5E2465975500C5DFBD /* SceneDelegate.swift in Sources */,
+				ADCF8D602465975500C5DFBD /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF8D6A2465975A00C5DFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCF8D732465975A00C5DFBD /* Email_Login_PageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF8D752465975A00C5DFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCF8D7E2465975A00C5DFBD /* Email_Login_PageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADCF8D702465975A00C5DFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADCF8D572465975500C5DFBD /* Email Login Page */;
+			targetProxy = ADCF8D6F2465975A00C5DFBD /* PBXContainerItemProxy */;
+		};
+		ADCF8D7B2465975A00C5DFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADCF8D572465975500C5DFBD /* Email Login Page */;
+			targetProxy = ADCF8D7A2465975A00C5DFBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADCF8D662465975A00C5DFBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADCF8D672465975A00C5DFBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADCF8D802465975A00C5DFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADCF8D812465975A00C5DFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADCF8D832465975A00C5DFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B3A704EEFC0D0CE8BE3C4E /* Pods-Email Login Page.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Email Login Page/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Email Login Page/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Email-Login-Page";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADCF8D842465975A00C5DFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6EA0EE8CEBFCC1B1DB66D73 /* Pods-Email Login Page.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Email Login Page/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Email Login Page/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Email-Login-Page";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADCF8D862465975A00C5DFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2945CA5FCC280D462B07140 /* Pods-Email Login PageTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Email Login PageTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Email-Login-PageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Email Login Page.app/Email Login Page";
+			};
+			name = Debug;
+		};
+		ADCF8D872465975A00C5DFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59284C23314C208FDE555CCF /* Pods-Email Login PageTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Email Login PageTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Email-Login-PageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Email Login Page.app/Email Login Page";
+			};
+			name = Release;
+		};
+		ADCF8D892465975A00C5DFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5882F353F34DB7CB73C0E47A /* Pods-Email Login Page-Email Login PageUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Email Login PageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Email-Login-PageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Email Login Page";
+			};
+			name = Debug;
+		};
+		ADCF8D8A2465975A00C5DFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 627355DCDECB1DF6A19F3E22 /* Pods-Email Login Page-Email Login PageUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Email Login PageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Email-Login-PageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Email Login Page";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADCF8D532465975500C5DFBD /* Build configuration list for PBXProject "Email Login Page" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCF8D802465975A00C5DFBD /* Debug */,
+				ADCF8D812465975A00C5DFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCF8D822465975A00C5DFBD /* Build configuration list for PBXNativeTarget "Email Login Page" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCF8D832465975A00C5DFBD /* Debug */,
+				ADCF8D842465975A00C5DFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCF8D852465975A00C5DFBD /* Build configuration list for PBXNativeTarget "Email Login PageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCF8D862465975A00C5DFBD /* Debug */,
+				ADCF8D872465975A00C5DFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCF8D882465975A00C5DFBD /* Build configuration list for PBXNativeTarget "Email Login PageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCF8D892465975A00C5DFBD /* Debug */,
+				ADCF8D8A2465975A00C5DFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADCF8D502465975500C5DFBD /* Project object */;
+}
